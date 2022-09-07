@@ -8,7 +8,7 @@ const StringChallenge = (num) => {
   const newArr = [];
 
   for (let i = 0; i < result.length; i++) {
-    if (i % 3 == 0 && i) {
+    if (i % 3 == 0 && i !== 0) {
       newArr.push("_");
     }
     newArr.push(result[i]);
